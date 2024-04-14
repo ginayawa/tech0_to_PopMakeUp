@@ -23,3 +23,5 @@ def select_tbl(mytable):
       df = pd.DataFrame(result.fetchall(), columns=result.keys())
 
   return df
+
+
